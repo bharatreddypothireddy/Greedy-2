@@ -8,6 +8,7 @@
 // 3. If greater , add 1 more to previous child's value and store it as the current child's rating .Do this for all elements till the right most element.
 // 4.Now start from last before element and go from right to left.If current rating is greater than next rating store current rating as maximum of 
 // already present rating and 1+next child's value as the current child should have more candies than neighbours if he has a higher rating.
+//5.Finally add all candies in array and retrn sum
 class Solution {
     public int candy(int[] ratings) {
         int[] result = new int[ratings.length];
